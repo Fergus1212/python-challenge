@@ -36,7 +36,7 @@ print(f"Average Change:  {avgpl}")
 print(f"Greatest Increase in Profits:   {q4}")
 print(f"Greatest Decrease in Profits:  {q5}")
 Financial_Analysis = open("Financial_Analysis.txt","w")
-Financial_Analysis.write("Financial Analysis\n")
+Financial_Analysis.write(f"Financial Analysis\n ----------------------------- \n total months:  {countv} \n total:  {plsum} \n Average Change:  {avgpl} \n Greatest Increase in Profits:   {q4} \n Greatest Decrease in Profits:  {q5} ")
 
 
     #print(type((row[1])))
