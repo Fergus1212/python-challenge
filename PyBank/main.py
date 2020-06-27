@@ -23,20 +23,19 @@ for row in rows:
 for row in rows:
     avgpl = plsum/len(row[0])
     if row[1] == max(pl):
-        q4 = f"{row[0]} {row[1]}"
+        q4 = f"{row[0]} ${row[1]}"
     if row[1] == min(pl):
-        q5 = f"{row[0]} {row[1]}"
-        #if row[1]> row[1]-1
-        #maxp = row[1]
+        q5 = f"{row[0]} ${row[1]}"
+        
 print("Financial Analysis")
 print("-----------------------------")
-print(f"total months:  {countv}")
-print(f"total:  {plsum}")
-print(f"Average Change:  {avgpl}")
-print(f"Greatest Increase in Profits:   {q4}")
-print(f"Greatest Decrease in Profits:  {q5}")
+print(f"Total months:  {countv}")
+print(f"Total:  ${plsum}")
+print(f"Average Change:  ${avgpl}")
+print(f"Greatest Increase in Profits:{q4}")
+print(f"Greatest Decrease in Profits:{q5}")
 Financial_Analysis = open("Financial_Analysis.txt","w")
 Financial_Analysis.write(f"Financial Analysis\n ----------------------------- \n total months:  {countv} \n total:  {plsum} \n Average Change:  {avgpl} \n Greatest Increase in Profits:   {q4} \n Greatest Decrease in Profits:  {q5} ")
 
 
-    #print(type((row[1])))
+   
