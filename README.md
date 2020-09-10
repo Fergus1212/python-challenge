@@ -2,8 +2,6 @@
 
 ## PyBank
 
-![Revenue](Images/revenue-per-lead.png)
-
 
 * The task is to create a Python script that analyzes the records to calculate each of the following:
 
@@ -19,7 +17,7 @@
 
 * Completed Analysis 
 
-  ```text
+
 Financial Analysis
  ----------------------------- 
  Total months:  86 
@@ -27,12 +25,11 @@ Financial Analysis
  Average Change:  $4797822.25 
  Greatest Increase in Profits:   Feb-2012 $1170593 
  Greatest Decrease in Profits:  Sep-2013 $-1196225 
-  ```
+
 
 
 ## PyPoll
 
-![Vote-Counting](Images/Vote_counting.png)
 
 * In this project, the task is to help a small town modernize its vote-counting process. A set of poll data called [election_data.csv](PyPoll/Resources/election_data.csv) has been given. The dataset is composed of three columns: `Voter ID`, `County`, and `Candidate`. The following results have been requested.
 
@@ -48,7 +45,7 @@ Financial Analysis
 
 * Completed Analysis 
 
-  ```text
+
 ## PyPoll
 
 Election Results 
@@ -62,7 +59,7 @@ Election Results
  ----------------------------- 
  Winner: Khan 
  -----------------------------
-  ```
+
 
 
 
